@@ -12,6 +12,7 @@
 		FC1F0F0B1C4C8514005387DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1F0F091C4C8514005387DC /* Main.storyboard */; };
 		FC1F0F0D1C4C8514005387DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1F0F0C1C4C8514005387DC /* Assets.xcassets */; };
 		FC1F0F101C4C8514005387DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1F0F0E1C4C8514005387DC /* LaunchScreen.storyboard */; };
+		FC1F0F1A1C4C870B005387DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F0F191C4C870B005387DC /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC1F0F0C1C4C8514005387DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1F0F0F1C4C8514005387DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC1F0F111C4C8514005387DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1F0F191C4C870B005387DC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FC1F0F051C4C8514005387DC /* AppDelegate.swift */,
 				FC1F0F071C4C8514005387DC /* ViewController.swift */,
+				FC1F0F191C4C870B005387DC /* TableViewCell.swift */,
 				FC1F0F091C4C8514005387DC /* Main.storyboard */,
 				FC1F0F0C1C4C8514005387DC /* Assets.xcassets */,
 				FC1F0F0E1C4C8514005387DC /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1F0F1A1C4C870B005387DC /* TableViewCell.swift in Sources */,
 				FC1F0F081C4C8514005387DC /* ViewController.swift in Sources */,
 				FC1F0F061C4C8514005387DC /* AppDelegate.swift in Sources */,
 			);
